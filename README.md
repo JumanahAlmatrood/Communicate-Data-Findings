@@ -10,7 +10,7 @@ The analysis is conducted in two main phases:
 2. **Explanatory Data Analysis (Part II)**  
    After identifying meaningful insights, I refined and presented the most important findings through clear and focused visualizations.
 
-The main goal of the project is to move from **understanding the data** → إلى **شرح النتائج بشكل مقنع وواضح**.
+The main goal of the project is to move from **understanding the data** to **explaining the results clearly**.
 
 ---
 
@@ -27,6 +27,8 @@ This dataset allows us to explore:
 - How long trips typically last
 - How behavior differs between casual users and subscribers
 
+The analyzed file has 183,412 trips and 16 columns. It is not included in this repository.
+
 ---
 
 ## Part I: Exploratory Data Analysis
@@ -39,12 +41,12 @@ This dataset allows us to explore:
   - Trip duration distribution
   - Peak usage times during the day and week
   - Comparison between **Subscribers** and **Customers**
-  - Difference in trip behavior across different hours and days
+  - Difference in trip behavior across different hours
 
 ### Key Insights Found:
 - Most bike trips are **short**, typically under 20 minutes.
 - **Subscribers** use the service for **commuting**, mainly during **morning and evening rush hours**.
-- **Customers (Casual Users)** tend to use bikes more on **weekends** and for **longer leisure trips**.
+- **Customers (Casual Users)** tend to take **longer trips**.
 - Usage patterns strongly reflect work schedules and lifestyle differences.
 
 ---
@@ -61,12 +63,17 @@ This dataset allows us to explore:
 1. **Trip Duration Distribution**  
    - Most users ride for short durations, and longer trips are less common.
 
-2. **Rush Hour Usage (Subscribers)**  
-   - Clear peaks appear around **8 AM** and **5 PM**, indicating weekday work commute patterns.
+   ![Trip duration distribution](assets/trip-duration.png)
 
-3. **Weekend vs Weekday Behavior**  
-   - Customers ride more on weekends for leisure.
-   - Subscribers use bikes mostly on weekdays for work-related travel.
+2. **Rush Hour Usage (Subscribers)**  
+   - Clear peaks appear around **8 AM** and **5 PM**, which fits a work commute pattern.
+
+   ![Trips by start hour and user type](assets/start-hour-by-user-type.png)
+
+3. **Trip Duration by User Type**  
+   - Customers tend to take longer trips than Subscribers.
+
+   ![Trip duration by user type](assets/duration-by-user-type.png)
 
 The visual storytelling highlighted how **user type strongly influences how and when bikes are used**.
 
