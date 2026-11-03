@@ -79,6 +79,18 @@ The visual storytelling highlighted how **user type strongly influences how and 
 
 ---
 
+## How to Run
+The dataset is not included in this repository. The notebooks show saved results. To run them again, download the Ford GoBike trip data, save it as `fordgobike.csv` next to the notebooks, and run:
+
+```bash
+git clone https://github.com/JumanahAlmatrood/Communicate-Data-Findings.git
+cd Communicate-Data-Findings
+pip install jupyter pandas numpy matplotlib seaborn
+jupyter notebook
+```
+
+---
+
 ## Tools and Libraries
 - Python
 - Pandas
