@@ -1,5 +1,7 @@
 # Communicate Data Findings 
 
+> **Udacity Data Analyst Nanodegree project.** The other projects from this program are [Data Wrangling](https://github.com/JumanahAlmatrood/Data-Wrangling-Project) and [Investigate a Dataset](https://github.com/JumanahAlmatrood/Investigate-a-Dataset).
+
 ## Project Overview
 This project explores and communicates insights from the **Bay Wheels / Ford GoBike** bike-sharing dataset.  
 The analysis is conducted in two main phases:
